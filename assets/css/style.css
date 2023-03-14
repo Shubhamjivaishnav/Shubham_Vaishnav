@@ -1,0 +1,297 @@
+/*nav-bar*/
+*{
+	box-sizing: border-box;
+}
+
+
+
+
+.navbar-brand{
+	padding-left: 5rem;
+}
+.navbar-nav{
+padding-right: 70px;
+}
+
+
+
+.bg-body-tertiary{
+	background-color:#ff6907!important;
+	object-fit: cover;
+}
+
+
+
+/*navbar hover nd all*/
+
+.collapse .navbar-nav .nav-item .nav-link:hover{
+	border-radius: 5px;
+    border-bottom: 4px solid wheat;
+	color: #fff;
+	
+}
+.nav-item .active{
+	border-radius: 5px!important;
+    border-bottom: 4px solid wheat!important;
+}
+
+.collapse .navbar-nav .nav-item{
+	font-size: 15px;
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+    font-weight: bolder;
+}
+.navbar-brand{
+	color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 16px;
+}
+.navbar-brand:hover{
+	color: gold !important;
+}
+.navbar-brand span{
+	color: #gold;
+}
+.navbar-brand span:hover{
+	font-size: 25px!important;
+	color: blueviolet!important;
+}
+/*slider*/
+
+
+
+.carousel-item img{
+ height: 630px;
+ object-fit: cover;
+ width: 100%;
+
+}
+
+/*about us*/
+.vaibhav{
+	background-color: #ebebdd;
+}
+#bharti{
+/*	background-color: #4c623e4d;*/
+padding-top: 75px;
+}
+
+/*cards*/
+
+.vedio-content{
+	background-color: #e9ecef8c;
+
+}
+#vaishnav p{
+	color: black;
+	padding: 1rem;
+	text-transform: capitalize;
+}
+#vaishnav .card{
+	border: 1px solid #000;
+	color: #4c623e4d;
+	box-shadow: 10px 10px 10px -3px;
+	background-color: white;
+}
+.card{
+	border: 1px solid #000;
+	color: #4c623e4d;
+	box-shadow: 10px 10px 10px -3px;
+	background-color: white;
+}
+/*video and reviews*/
+#radhika{
+/*	width: 100%;*/
+	background-color: #4c623e4d;
+}
+
+
+                     /*review star color*/
+#shubham{
+	text-align: center;
+}
+
+                    /*video tag class*/
+.divya{
+	    padding-top: 49px;
+    width: 530px;
+}
+
+#shubham{
+	color: gold!important;
+}
+
+
+.navbar-collapse{
+	padding-left: 5rem;
+}
+/*Review*/
+/*.container {
+	background-color: rgb(232, 242, 245);
+	padding: 50px 40px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	box-shadow: 5px 5px 25px #a7a7a7
+}*/
+
+
+.tag {
+	text-align: center;
+	font-size: 1.1rem
+}
+
+.fa-heart {
+	color: rgba(255, 230, 0, 0.959);
+	font-size: 30px
+}
+
+.owl-item .card {
+	background-color: #7e7860!important;
+	color: #fff;
+	height: 320px;
+	padding: 10px 20px;
+	border: none;
+	box-shadow: -1px 3px 5px #a7a7a7
+}
+
+.testimonial {
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	font-weight: 500
+}
+
+.active-star {
+	color: #FBC02D;
+	margin-bottom: 8px
+}
+
+.active-star:hover {
+	color: #F9A825;
+	cursor: pointer
+}
+
+.profile {
+	padding-top: 10px
+}
+
+.name {
+	font-weight: 700
+}
+
+.designation {
+	font-size: 0.84rem;
+	font-weight: 600
+}
+
+.owl-carousel {
+	margin-bottom: 15px
+}
+
+.owl-carousel .owl-stage-outer {
+	padding: 40px 10px;
+	height: 380px
+}
+
+.owl-carousel .owl-item img {
+	width: 45px !important;
+	height: 45px;
+	border-radius: 50%;
+	object-fit: cover
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+	border-radius: 50% !important;
+	background: inherit !important;
+	border: 3px solid #bbb;
+	color: #bbb !important
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+	border: 3px solid #1010ca;
+	color: #1010ca !important
+}
+
+@media(max-width: 575.5px) {
+	.container {
+		margin: 0px;
+		padding: 20px
+	}
+}
+/*whatsapp*/
+.whats-app {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 3px 4px 3px #999;
+    left: 15px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 10px;
+}
+/*media query*/
+
+
+@media screen and (max-width: 576px) {
+  .carousel-item img{
+ height: 352px;
+ object-fit: cover;
+ width: 100%;
+}
+}
+@media screen and (max-width: 360px) {
+.navbar-brand {
+    padding-left: 1rem;
+}
+.carousel-item img{
+ height: 352px;
+ object-fit: cover;
+ width: 100%;
+}
+}
+
+.row{
+	color: black;
+	font-size: 17.1	px;
+}
+/*Gallery */
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item{
+	/*width:100%;*/
+}
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+.gallery{
+	padding: 80px 0px;
+}
+.room{
+	padding: 55px 0px;
+}
